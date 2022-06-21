@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: julioferreira-american-predictor
-        image: julioferreira20/julioferreira-american-predictor:1.3
+        image: julioferreira20/julioferreira-american-predictor:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5018
