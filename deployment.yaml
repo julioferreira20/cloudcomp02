@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: julioferreira-american-predictor
-        image: julioferreira20/julioferreira-american-predictor:1.7
+        image: julioferreira20/julioferreira-american-predictor:1.8
         ports:
         - containerPort: 5018
