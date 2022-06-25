@@ -1,11 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: julioferreira-american-predictor-service
+  name: julioferreira-american-predictor
+  labels:
+    app: julioferreira-american-predictor
 spec:
   selector:
     app: julioferreira-american-predictor
   ports:
-    - protocol: TCP
-      port: 5018
+    - port: 5018
+      protocol: TCP
       targetPort: 5018

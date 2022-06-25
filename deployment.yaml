@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: julioferreira-american-predictor-deployment
+  name: julioferreira-american-predictor
 spec:
   replicas: 2
   selector:
